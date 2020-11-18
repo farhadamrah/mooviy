@@ -1,0 +1,20 @@
+.film-container {
+  height: 400px;
+  color: rgba(255, 255, 255, 0.705);
+  cursor: pointer;
+  margin-top: 15px;
+}
+/* 
+.film__img-container {
+  height: 80%;
+} */
+
+.film_img {
+  width: 100%;
+  height: 80%;
+  background-position: center;
+}
+
+.film-container:hover {
+  transform: scale(1.1);
+}

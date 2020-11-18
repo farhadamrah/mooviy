@@ -1,0 +1,41 @@
+.favorites-film-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: #061c29;
+  padding: 0 10%;
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.favorites-film {
+  color: rgba(255, 255, 255, 0.705);
+  cursor: pointer;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: #061c29;
+  grid-gap: 20px;
+
+  width: 1080px;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+  .favorites-film {
+    grid-template-columns: repeat(3, 1fr);
+    width: 850px;
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #0a2230;
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .favorites-film {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    width: 700px;
+  }
+}
